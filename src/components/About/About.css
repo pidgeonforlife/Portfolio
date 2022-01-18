@@ -1,0 +1,35 @@
+.aboutContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.aboutInfo {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    margin: 45px 45px 20px;
+}
+
+.aboutInfo p {
+    margin-top: 10px;
+}
+
+.aboutInfo button {
+    width: 130px;
+    height: 38px;
+    border-radius: 17px;
+    border: none;
+    color: white;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.aboutButton1 {
+    background-color: #94CBFF;
+}
+
+.aboutButton2 {
+    background-color: #474747;
+}
