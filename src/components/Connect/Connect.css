@@ -1,0 +1,60 @@
+.footerContainer {
+    background-color: #666666;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.footerContainer img {
+    width: 77px;
+    height: 20px;
+}
+
+.connectContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #474747;
+    margin-top: 30px;
+}
+
+.connectInfo {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    margin: 45px 45px 20px;
+    text-align: center;
+}
+
+.socialMedia {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.socialMedia button {
+    font-size: 1.8rem;
+    cursor: pointer;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    overflow: hidden;
+    outline: none;
+    color: white;
+
+}
+
+.connectInfo p {
+    color: white;
+}
+
+.connectInfo h1 {
+    margin-bottom: 8px;
+    color: white;
+}

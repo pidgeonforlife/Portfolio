@@ -16,3 +16,13 @@
 .introInfo h1 {
     margin-bottom: 8px;
 }
+
+.introImage {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.introImage img {
+    width: 50%;
+}

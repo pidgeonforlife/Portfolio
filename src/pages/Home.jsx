@@ -4,6 +4,8 @@ import Intro from "../components/Intro/Intro";
 import About from "../components/About/About";
 import PersonalProjects from "../components/PersonalProjects/PersonalProjects";
 import Skills from "../components/Skills/Skills";
+import Connect from "../components/Connect/Connect";
+import Footer from "../components/Connect/Footer";
 import { motion, Scroll } from 'framer-motion';
 import '../stylesheet/Home.css';
 
@@ -15,6 +17,8 @@ function Home() {
         <About />
         <PersonalProjects />
         <Skills />
+        <Connect />
+        <Footer />
     </motion.div>
   );
 }

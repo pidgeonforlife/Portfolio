@@ -14,6 +14,11 @@ function Intro() {
             <h2><span style={{color: '#94CBFF'}}>Yongseok</span> Choi</h2>
             <p>A Front-End Web Developer<span style={{color: '#94CBFF'}}>.</span></p>
         </motion.div>
+        <motion.div initial={{ x: -200, opacity: 0 }}
+            transition={{ delay: 0.4}}
+            animate={{ x: 0, opacity: 1 }} className='introImage'>
+              <img src='images/intropicture.png' />
+        </motion.div>
     </div>
   );
 }

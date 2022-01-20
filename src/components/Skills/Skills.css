@@ -1,0 +1,36 @@
+.skillsContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.skillsInfo {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    margin: 45px 45px 20px;
+}
+
+.skillsInfo p {
+    margin-top: 10px;
+}
+
+.skillsList {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+.skillsList button {
+    background: #474747;
+    border-radius: 3px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    font-size: 12px;
+    padding: 10px;
+    
+}
