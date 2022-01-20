@@ -3,6 +3,12 @@
     width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10em;
+    margin-top: 30px;
+    min-height: 100vh;
+    
 }
 
 .introInfo {
@@ -10,19 +16,8 @@
     font-family: Lato;
     font-style: normal;
     font-weight: 600;
-    margin: 45px 45px 20px;
-}
-
-.introInfo h1 {
-    margin-bottom: 8px;
-}
-
-.introImage {
-    display: flex;
-    justify-content: center;
-    width: 100%;
 }
 
 .introImage img {
-    width: 50%;
+    width: 60%;
 }

@@ -28,3 +28,40 @@ function Skills() {
 }
 
 export default Skills;
+
+{/* <button>
+<i class="fab fa-html5"></i>
+HTML5
+</button>
+<button>
+<i class="fab fa-js-square"></i>
+JavaScript
+</button>
+<button>
+<i class="fab fa-css3-alt"></i>
+CSS3
+</button>
+<button>
+<i class="fab fa-vuejs"></i>
+Vue.js
+</button>
+<button>
+<i class="fab fa-react"></i>
+React
+</button>
+<button>
+<i class="fab fa-python"></i>
+Python
+</button>
+<button>
+<i class="fab fa-java"></i>
+Java
+</button>
+<button>
+<i class="fab fa-github"></i>
+Github
+</button>
+<button>
+<i class="fab fa-git"></i>
+Git
+</button> */}

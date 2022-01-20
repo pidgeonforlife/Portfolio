@@ -1,8 +1,12 @@
 .skillsContainer {
     display: flex;
     width: 100%;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .skillsInfo {
@@ -22,6 +26,7 @@
     flex-direction: row;
     gap: 10px;
     justify-content: center;
+    width: 60%;
 }
 
 .skillsList button {

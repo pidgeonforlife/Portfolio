@@ -1,8 +1,12 @@
 .projectContainer {
     display: flex;
     width: 100%;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .projectInfo {
@@ -27,7 +31,7 @@
 }
 
 .projectShowCase {
-    margin-top: 30px;
+    margin-top: 50px;
     flex-direction: row;
     gap: 30px;
     flex-wrap: wrap;
@@ -43,12 +47,24 @@
 
 .projectBox1 {
     background: rgba(255, 243, 136, 0.5);
+    display: flex;
+    justify-content: center;
 }
 
 .projectBox2 {
     background: rgba(249, 87, 87, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectBox2 img {
+    width: 238px;
+    height: 140px;
 }
 
 .projectBox3 {
     background: rgba(148, 203, 255, 0.5);
+    display: flex;
+    justify-content: center;
 }

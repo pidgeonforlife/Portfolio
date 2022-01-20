@@ -8,7 +8,237 @@
 
 
 @media screen and (max-width: 960px) {
-    .header-content {
-        flex-direction: column;
+    .introContainer {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1px;
     }
+    
+    .introInfo {
+        line-height: 35px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 600;
+    }
+    
+    .introInfo h1 {
+        margin-bottom: 8px;
+    }
+    
+    .introImage {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        position: relative;
+        top: -80px;
+    }
+    
+    .introImage img {
+        width: 50%;
+    }
+
+    .aboutContainer {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .aboutInfo {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 600;
+        margin: 45px 45px 20px;
+        width: 100%;
+    }
+    
+    .aboutInfo p {
+        margin-top: 10px;
+    }
+    
+    .aboutInfo button {
+        width: 130px;
+        height: 38px;
+        border-radius: 17px;
+        border: none;
+        color: white;
+        margin-right: 10px;
+        margin-top: 20px;
+    }
+    
+    .aboutButton1 {
+        background-color: #94CBFF;
+    }
+    
+    .aboutButton2 {
+        background-color: #474747;
+    }
+
+    .projectContainer {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .projectInfo {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 600;
+        margin: 45px 45px 20px;
+    }
+    
+    .projectInfo p {
+        margin-top: 10px;
+    }
+    
+    .projectInfo button {
+        width: 130px;
+        height: 38px;
+        border-radius: 17px;
+        border: none;
+        color: white;
+        margin-right: 10px;
+        margin-top: 20px;
+    }
+    
+    .projectShowCase {
+        margin-top: 30px;
+        flex-direction: row;
+        gap: 30px;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .projectShowCase div {
+        width: 254px;
+        height: 254px;
+        border-radius: 44px;
+    }
+    
+    .projectBox1 {
+        background: rgba(255, 243, 136, 0.5);
+        display: flex;
+        justify-content: center;
+    }
+    
+    .projectBox2 {
+        background: rgba(249, 87, 87, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .projectBox2 img {
+        width: 238px;
+        height: 140px;
+    }
+    
+    .projectBox3 {
+        background: rgba(148, 203, 255, 0.5);
+        display: flex;
+        justify-content: center;
+    }
+
+    .skillsContainer {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .skillsInfo {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 600;
+        margin: 45px 45px 20px;
+    }
+    
+    .skillsInfo p {
+        margin-top: 10px;
+    }
+    
+    .skillsList {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 10px;
+        justify-content: center;
+    }
+    
+    .skillsList button {
+        background: #474747;
+        border-radius: 3px;
+        color: white;
+        font-weight: 600;
+        border: none;
+        font-size: 12px;
+        padding: 10px;
+        
+    }
+
+    .footerContainer {
+        background-color: #666666;
+        display: flex;
+        justify-content: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    .footerContainer img {
+        width: 77px;
+        height: 20px;
+    }
+    
+    .connectContainer {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: #474747;
+        margin-top: 30px;
+    }
+    
+    .connectInfo {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 600;
+        margin: 45px 45px 20px;
+        text-align: center;
+    }
+    
+    .socialMedia {
+        padding-top: 20px;
+        padding-bottom: 5px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+    .socialMedia button {
+        font-size: 1.8rem;
+        cursor: pointer;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        border: none;
+        overflow: hidden;
+        outline: none;
+        color: white;
+    
+    }
+    
+    .connectInfo p {
+        color: white;
+    }
+    
+    .connectInfo h1 {
+        margin-bottom: 8px;
+        color: white;
+    }
+    
 }

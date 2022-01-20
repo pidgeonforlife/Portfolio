@@ -5,7 +5,7 @@ import './PersonalProjects.css';
 function PersonalProjects() {
 
   return (
-    <div className='aboutContainer'>
+    <div className='projectContainer'>
         <motion.div initial={{ x: 200, opacity: 0 }}
             transition={{ delay: 0.2}}
             animate={{ x: 0, opacity: 1 }} className='aboutInfo'>
@@ -13,9 +13,15 @@ function PersonalProjects() {
             <p>Take a look at some of my personal projects over the years by clicking on it!</p>
         </motion.div>
         <div className='projectShowCase'>
-            <div className='projectBox1'></div>
-            <div className='projectBox2'></div>
-            <div className='projectBox3'></div>
+            <div className='projectBox1'>
+              <img src='/images/SpotMe.png' />
+            </div>
+            <div className='projectBox2'>
+              <img src='/images/Handy.png' />
+            </div>
+            <div className='projectBox3'>
+              <img src='/images/SYPTech.png' />
+            </div>
         </div>
     </div>
   );

@@ -1,15 +1,20 @@
 .aboutContainer {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 30vh;
 }
 
 .aboutInfo {
     font-family: Lato;
     font-style: normal;
     font-weight: 600;
-    margin: 45px 45px 20px;
+    width: 750px;
 }
 
 .aboutInfo p {
