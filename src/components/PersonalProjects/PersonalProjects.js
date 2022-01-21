@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import { motion} from 'framer-motion';
+import { Link } from 'react-router-dom';
 import './PersonalProjects.css';
 
 function PersonalProjects() {
 
   return (
-    <div className='projectContainer'>
+    <div className='projectContainer' id='project'>
         <motion.div initial={{ x: 200, opacity: 0 }}
             transition={{ delay: 0.2}}
             animate={{ x: 0, opacity: 1 }} className='aboutInfo'>
@@ -14,16 +15,32 @@ function PersonalProjects() {
         </motion.div>
         <div className='projectShowCase'>
             <div className='projectBox1'>
-              <img src='/images/SpotMe.png' />
+            <Link to='/SpotMe' className='projectBox1Img'>
+              <motion.img whileHover={{ 
+                  scale: 1.1
+                  }} whileTap={{ scale: 0.8 }} src='/images/SpotMe.png' />
+            </Link>
             </div>
             <div className='projectBox2'>
-              <img src='/images/Handy.png' />
+            <Link to='/Handy' className='projectBox1Img'>
+              <motion.img whileHover={{ 
+                  scale: 1.1
+                  }} whileTap={{ scale: 0.8 }} src='/images/Handy.png' />
+            </Link>
             </div>
             <div className='projectBox3'>
-              <img src='/images/SYPTech.png' />
+            <Link to='/SYPTech' className='projectBox1Img'>
+            <motion.img whileHover={{ 
+                  scale: 1.1
+                  }} whileTap={{ scale: 0.8 }} src='/images/SYPTech.png' />
+            </Link>
             </div>
             <div className='projectBox4'>
-              <motion.img src='/images/Maplestory.png' />
+            <Link to='/SYPTech' className='projectBox1Img'>
+            <motion.img whileHover={{ 
+                  scale: 1.1
+                  }} whileTap={{ scale: 0.8 }} src='/images/Maplestory.png' />
+            </Link>
             </div>
         </div>
     </div>

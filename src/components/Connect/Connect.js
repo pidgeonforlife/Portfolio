@@ -5,7 +5,7 @@ import './Connect.css';
 function Connect() {
 
   return (
-    <div className='connectContainer'>
+    <div className='connectContainer' id='contact'>
         <motion.div initial={{ x: -200, opacity: 0 }}
             transition={{ delay: 0.2}}
             animate={{ x: 0, opacity: 1 }} className='connectInfo'>
@@ -15,16 +15,16 @@ function Connect() {
         </motion.div>
         <div className='socialMedia'>
             <button>
-                <i class="fab fa-github"></i>
+                <a href='https://github.com/pidgeonforlife' target="_blank"><i class="fab fa-github"></i></a>
             </button>
             <button>
-                <i class="fas fa-envelope"></i>
+                <a href='mailto:eric.choiyongseok@gmail.com' target="_blank"><i class="fas fa-envelope"></i></a>
             </button>
             <button>
-                <i class="fab fa-linkedin"></i>
+                <a href='https://www.linkedin.com/in/eric-choi-5524ba204/' target="_blank"><i class="fab fa-linkedin"></i></a>
             </button>
             <button>
-                <i class="fab fa-instagram"></i>
+                <a href='https://www.instagram.com/seokk.e/?hl=en' target="_blank"><i class="fab fa-instagram"></i></a>
             </button>
         </div>
     </div>

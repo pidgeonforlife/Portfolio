@@ -7,14 +7,14 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    min-height: 30vh;
+    min-height: 20vh;
 }
 
 .aboutInfo {
     font-family: Lato;
     font-style: normal;
     font-weight: 600;
-    width: 750px;
+    width: 780px;
 }
 
 .aboutInfo p {
@@ -29,6 +29,11 @@
     color: white;
     margin-right: 10px;
     margin-top: 20px;
+}
+
+.aboutInfo a {
+    color: white;
+    text-decoration: none;
 }
 
 .aboutButton1 {

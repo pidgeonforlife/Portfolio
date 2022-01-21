@@ -12,10 +12,6 @@
     
 }
 
-.introArrow {
-    width: 50%;
-}
-
 .intro {
     display: flex;
     flex-wrap: wrap;

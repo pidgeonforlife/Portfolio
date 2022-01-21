@@ -54,6 +54,11 @@
     flex: 40%;
 }
 
+.projectBox1Img {
+    display: flex;
+}
+
+
 .projectBox2 {
     background: rgba(249, 87, 87, 0.5);
     display: flex;

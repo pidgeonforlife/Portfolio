@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 import { motion} from 'framer-motion';
-import './projectOnePage.css';
 
 function ProjectOneInfo() {
 
   return (
-    <div className='projectOneContainer'>
+    <div className='aboutContainer'>
         <motion.div initial={{ x: 200, opacity: 0 }}
             transition={{ delay: 0.2}}
             animate={{ x: 0, opacity: 1 }} className='aboutInfo'>

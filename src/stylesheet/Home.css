@@ -6,6 +6,10 @@
     flex-direction: row;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
 
 @media screen and (max-width: 960px) {
     .introContainer {
@@ -241,5 +245,137 @@
         margin-bottom: 8px;
         color: white;
     }
+
+}
+
+.projectExample {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#projectWireframe img {
+    margin-top: 50px;
+    width: 100%;
+}
+
+#projectVideo {
+    margin-top: 50px;
+}
+
+#projectVideo iframe {
+    margin-top: 50px;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+.projectOneContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     
+}
+
+.projectOneContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.projectOneImageContainer div {
+    width: 254px;
+    height: 254px;
+    border-radius: 44px;
+}
+
+.projectOne {
+    background: rgba(255, 243, 136, 0.5);
+    display: flex;
+    justify-content: center;
+}
+
+.navigateButton {
+    background: transparent;
+    border: none;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttonContainer a {
+    color: black;
+    font-size: 30px;
+}
+
+.projectTwoImageContainer div {
+    width: 254px;
+    height: 254px;
+    border-radius: 44px;
+    background: rgba(249, 87, 87, 0.5);
+}
+
+.projectTwoImageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectTwoImageContainer img {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.projectTwoContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.buttonContainer {
+    margin-top: 300px;
+}
+
+.projectThreeContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.projectThreeImageContainer div {
+    background: rgba(148, 203, 255, 0.5);
+    border-radius: 23px;
+    width: 234px;
+    height: 234px;
+}
+
+.projectThreeImageContainer img {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    position: relative;
+    margin-left: 30px;
 }

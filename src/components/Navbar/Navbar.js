@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <>
       <nav className='navbar'>
-        <Link to='/home' className='navbar-logo' onClick={closeMobileMenu}>
+        <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
           <img src='/images/navbarlogo.png'/>
         </Link>
         <div className='menu-icon' onClick={handleClick}>
@@ -20,38 +20,25 @@ function Navbar() {
         </div>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li className='nav-item'>
-            <Link to='/home' className='nav-links' onClick={closeMobileMenu}>
+            <a href='/#about' className='nav-links' onClick={closeMobileMenu}>
               ABOUT
-            </Link>
+            </a>
           </li>
           <li className='nav-item'>
-            <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
+            <a href='/#project' className='nav-links' onClick={closeMobileMenu}>
               PROJECTS
-            </Link>
+            </a>
           </li>
           <li className='nav-item'>
-            <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
+            <a href='/#contact' className='nav-links' onClick={closeMobileMenu}>
               SKILLS
-            </Link>
+            </a>
           </li>
           <li className='nav-item'>
-            <Link
-              to='/products'
-              className='nav-links'
-              onClick={closeMobileMenu}
-            >
+            <a href='/#contact' className='nav-links' onClick={closeMobileMenu}>
               CONTACT
-            </Link>
+            </a>
           </li>
-          {/* <li className='nav-item'>
-            <Link
-              to='/contact-us'
-              className='nav-links'
-              onClick={closeMobileMenu}
-            >
-              CONTACT
-            </Link>
-          </li> */}
         </ul>
       </nav>
     </>

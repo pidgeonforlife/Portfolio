@@ -6,6 +6,7 @@ import ProjectOneInfo from "../components/SpotMe/projectOneInfo";
 import ProjectOneObjective from "../components/SpotMe/projectOneObjective";
 import ProjectOneDeliverables from "../components/SpotMe/projectOneDeliverables";
 import ProjectOneExample from "../components/SpotMe/projectOneExample";
+import ProjectOneExampleTwo from "../components/SpotMe/projectOneExampleTwo";
 import ProjectOneNavigate from "../components/SpotMe/projectOneNavigate";
 import Footer from "../components/Connect/Footer";
 import { motion, Scroll } from 'framer-motion';
@@ -20,6 +21,7 @@ function SpotMe() {
         <ProjectOneObjective />
         <ProjectOneDeliverables />
         <ProjectOneExample />
+        <ProjectOneExampleTwo />
         <ProjectOneNavigate />
         <Connect />
         <Footer />

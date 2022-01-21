@@ -5,7 +5,7 @@ import './About.css';
 function About() {
 
   return (
-    <div className='aboutContainer'>
+    <div className='aboutContainer' id='about'>
         <motion.div initial={{ x: 200, opacity: 0 }}
             transition={{ delay: 0.2}}
             animate={{ x: 0, opacity: 1 }} className='aboutInfo'>
@@ -16,10 +16,11 @@ function About() {
             <p>Interested in working with me or taking a better look?</p>
                 <motion.button whileHover={{ 
                   scale: 1.1
-                  }} whileTap={{ scale: 0.8 }} className='aboutButton1'>RESUME</motion.button>
+                  }} whileTap={{ scale: 0.8 }} className='aboutButton1'><a href='/images/Official Resume.pdf' target="_blank">RESUME</a></motion.button>
                 <motion.button whileHover={{ 
                   scale: 1.1
-                  }} whileTap={{ scale: 0.8 }} className='aboutButton2'>CONTACT</motion.button>
+                  }} whileTap={{ scale: 0.8 }} className='aboutButton2'>
+                    <a href='/#contact'>CONTACT</a></motion.button>
         </motion.div>
     </div>
   );
