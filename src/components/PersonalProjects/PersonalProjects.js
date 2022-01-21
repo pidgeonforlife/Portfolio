@@ -22,6 +22,9 @@ function PersonalProjects() {
             <div className='projectBox3'>
               <img src='/images/SYPTech.png' />
             </div>
+            <div className='projectBox4'>
+              <motion.img src='/images/Maplestory.png' />
+            </div>
         </div>
     </div>
   );

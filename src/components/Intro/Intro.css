@@ -5,10 +5,24 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     gap: 10em;
     margin-top: 30px;
-    min-height: 100vh;
+    min-height: 90vh;
     
+}
+
+.introArrow {
+    width: 50%;
+}
+
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    gap: 10em;
 }
 
 .introInfo {
@@ -21,3 +35,4 @@
 .introImage img {
     width: 60%;
 }
+
