@@ -10,9 +10,9 @@ function ProjectFour() {
             animate={{ x: 0, opacity: 1 }} className='projectOneInfo'>
             <h1>MapleStory-Text<span style={{color: '#94CBFF'}}>.</span></h1>
         </motion.div>
-        <div className='projectTwoImageContainer'>
+        <div className='projectFourImageContainer'>
             <div className='projectTwo'>
-              <img src='/images/MapleStory.png' />
+              <img src='/images/Maplestory.png' />
             </div>
         </div>
     </div>

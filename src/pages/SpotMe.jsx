@@ -8,6 +8,7 @@ import ProjectOneDeliverables from "../components/SpotMe/projectOneDeliverables"
 import ProjectOneExample from "../components/SpotMe/projectOneExample";
 import ProjectOneExampleTwo from "../components/SpotMe/projectOneExampleTwo";
 import ProjectOneNavigate from "../components/SpotMe/projectOneNavigate";
+import SpotMeRole from "../components/SpotMe/SpotMeRole";
 import Footer from "../components/Connect/Footer";
 import { motion, Scroll } from 'framer-motion';
 import '../stylesheet/Home.css';
@@ -22,6 +23,7 @@ function SpotMe() {
         <ProjectOneDeliverables />
         <ProjectOneExample />
         <ProjectOneExampleTwo />
+        <SpotMeRole />
         <ProjectOneNavigate />
         <Connect />
         <Footer />

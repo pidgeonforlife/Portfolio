@@ -5,6 +5,8 @@ import HandyInfo from "../components/Handy/HandyInfo";
 import HandyDeliverables from "../components/Handy/handyDeliverables";
 import HandyObjectives from "../components/Handy/HandyObjectives";
 import HandyNavigate from "../components/Handy/HandyNavigate";
+import HandyExample from "../components/Handy/HandyExample";
+import HandyRole from "../components/Handy/HandyRole";
 import Connect from "../components/Connect/Connect";
 import Footer from "../components/Connect/Footer";
 import { motion, Scroll } from 'framer-motion';
@@ -18,6 +20,8 @@ function Handy() {
         <HandyInfo />
         <HandyObjectives />
         <HandyDeliverables />
+        <HandyExample />
+        <HandyRole />
         <HandyNavigate />
         <Connect />
         <Footer />

@@ -6,6 +6,8 @@ import MapleStoryInfo from "../components/MapleStoryText/MapleStoryInfo";
 import MapleStoryDeliverables from "../components/MapleStoryText/MapleStoryDeliverables";
 import MapleStoryObjectives from "../components/MapleStoryText/MapleStoryObjectives";
 import MapleStoryNavigate from "../components/MapleStoryText/MapleStoryNavigation";
+import MapleStoryRole from "../components/MapleStoryText/MapleStoryRole";
+import MapleStoryExample from "../components/MapleStoryText/MapleStoryExample";
 import Footer from "../components/Connect/Footer";
 import { motion, Scroll } from 'framer-motion';
 import '../stylesheet/Home.css';
@@ -18,6 +20,8 @@ function MaplestoryText() {
         <MapleStoryInfo />
         <MapleStoryObjectives />
         <MapleStoryDeliverables />
+        <MapleStoryExample />
+        <MapleStoryRole />
         <MapleStoryNavigate />
         <Connect />
         <Footer />

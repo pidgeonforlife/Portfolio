@@ -22,7 +22,7 @@ function PersonalProjects() {
             </Link>
             </div>
             <div className='projectBox2'>
-            <Link to='/Handy' className='projectBox1Img'>
+            <Link to='/Handy' className='projectBox3Img'>
               <motion.img whileHover={{ 
                   scale: 1.1
                   }} whileTap={{ scale: 0.8 }} src='/images/Handy.png' />

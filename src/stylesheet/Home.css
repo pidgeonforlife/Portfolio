@@ -298,6 +298,10 @@ a {
     justify-content: center;
 }
 
+.projectOne img {
+    width: 130px;
+}
+
 .navigateButton {
     background: transparent;
     border: none;
@@ -370,4 +374,30 @@ a {
     align-items: center;
     position: relative;
     margin-left: 30px;
+}
+
+.projectFourImageContainer div {
+    width: 254px;
+    height: 254px;
+    border-radius: 44px;
+    background: rgba(71, 71, 71, 0.5);
+}
+
+.projectFourImageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectFourImageContainer img {
+    width: 100%;
+    margin-top: 40px;
+}
+
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
 }
