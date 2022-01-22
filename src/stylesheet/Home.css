@@ -276,14 +276,6 @@ a {
 }
 
 .projectOneContainer {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    
-}
-
-.projectOneContainer {
     display: flex;
     width: 100%;
     flex-direction: column;
