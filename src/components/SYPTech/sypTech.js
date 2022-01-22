@@ -11,7 +11,7 @@ function ProjectThree() {
             <h1>SYPTech<span style={{color: '#94CBFF'}}>.</span></h1>
         </motion.div>
         <div className='projectThreeImageContainer'>
-            <div className='projectThree'>
+            <div className='projectTwo'>
               <img src='/images/SYPTech.png' />
             </div>
         </div>
