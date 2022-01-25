@@ -1,6 +1,6 @@
 .skillsContainer {
     display: flex;
-    width: 82%;
+    width: 100%;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
