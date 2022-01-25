@@ -15,8 +15,8 @@ function Home() {
         <Navbar />
         <Intro />
         <About />
-        <PersonalProjects />
         <Skills />
+        <PersonalProjects />
         <Connect />
         <Footer />
     </motion.div>
