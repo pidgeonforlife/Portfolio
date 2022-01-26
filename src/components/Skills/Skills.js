@@ -19,15 +19,3 @@ function Skills() {
 }
 
 export default Skills;
-
-
-            {/* <button>HTML5</button>
-            <button>JavaScript</button>
-            <button>CSS3</button>
-            <button>Vue.js</button>
-            <button>React</button>
-            <button>Python</button>
-            <button>Java</button>
-            <button>Github</button>
-            <button>Git</button>
-            <button>Firebase</button> */}

@@ -4,7 +4,6 @@ import {BrowserRouter, Route, Routes, useLocation} from 'react-router-dom';
 import Home from "./pages/Home";
 import SpotMe from './pages/SpotMe';
 import Handy from './pages/Handy';
-import Test from './pages/Test';
 import SYPTech from './pages/SYPTech';
 import MaplestoryText from './pages/MapleStoryText';
 import ScrollToTop from './components/ScrollToTop';
@@ -19,7 +18,6 @@ const App = () => {
         <Route path='/Handy' element={<Handy />}/>
         <Route path='/SYPTech' element={<SYPTech />}/>
         <Route path='/MapleStory' element={<MaplestoryText />}/>
-        <Route path='/Test' element={< Test />}/>
       </Routes>
       </ScrollToTop>
     </BrowserRouter>
