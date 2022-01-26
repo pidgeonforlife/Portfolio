@@ -10,7 +10,7 @@ function ProjectOneNavigate() {
         <div className='rightButton'>
             <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }} className='navigateButton'>
                 <a href='/Handy'>NEXT PROJECT</a>
-                <i class="fas fa-arrow-right"></i>
+                <i className="fas fa-arrow-right"></i>
             </motion.button>
         </div>
     </div>

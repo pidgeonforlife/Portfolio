@@ -16,16 +16,29 @@ function Accordions() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <h2><i class="fas fa-code"></i> FrontEnd Tools</h2>
+          <h2><i className="fas fa-code" style={{ color: '#94CBFF'}}></i> FrontEnd Tools</h2>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-              <p>HTML5</p>
-              <p>CSS3</p>
-              <p>JavaScript</p>
-              <p>React</p>
-              <p>Vue.js</p>
-          </Typography>
+            <div className='skillItem'>
+                <h3><i className="fab fa-html5" ></i> HTML5</h3>
+                <span className='experienceLevel'>Intermediate</span>
+            </div>
+            <div className='skillItem'>
+                <h3><i className="fab fa-css3-alt"></i> CSS3</h3>
+                <span className='experienceLevel'>Intermediate</span>
+            </div>
+            <div className='skillItem'>
+                <h3><i className="fab fa-js-square"></i> JavaScript</h3>
+                <span className='experienceLevel'>Moderate</span>
+            </div>
+            <div className='skillItem'>
+                <h3><i className="fab fa-react"></i> React</h3>
+                <span className='experienceLevel'>Moderate</span>
+            </div>
+            <div className='skillItem'>
+                <h3><i className="fab fa-vuejs"></i> Vue.js</h3>
+                <span className='experienceLevel'>Moderate</span>
+            </div>
         </AccordionDetails>
       </Accordion>
       </div>
@@ -36,16 +49,25 @@ function Accordions() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <h2><i class="fas fa-database"></i> BackEnd Tools</h2>
+          <h2><i className="fas fa-database"></i> BackEnd Tools</h2>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-              <p>HTML5</p>
-              <p>CSS3</p>
-              <p>JavaScript</p>
-              <p>React</p>
-              <p>Vue.js</p>
-          </Typography>
+            <div className='skillItem'>
+                <h3><i className="fab fa-python"></i> Python</h3>
+                <span className='experienceLevel'>Intermediate</span>
+            </div>
+            <div className='skillItem'>
+                <h3><i className="fab fa-java"></i> Java</h3>
+                <span className='experienceLevel'>Moderate</span>
+            </div>
+            <div className='skillItem'>
+                <h3><span className="iconify" data-icon="simple-icons:firebase"></span> Firebase</h3>
+                <span className='experienceLevel'>Moderate</span>
+            </div>
+            <div className='skillItem'>
+                <h3><i className="fab fa-node-js"></i> Node.js</h3>
+                <span className='experienceLevel'>Learning</span>
+            </div>
         </AccordionDetails>
       </Accordion>
       </div>
@@ -56,16 +78,17 @@ function Accordions() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <h2><i class="fab fa-dropbox"></i> Other Tools</h2>
+          <h2><i className="fab fa-dropbox" style={{ color: '#94CBFF'}}></i> Other Tools</h2>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-              <p>HTML5</p>
-              <p>CSS3</p>
-              <p>JavaScript</p>
-              <p>React</p>
-              <p>Vue.js</p>
-          </Typography>
+            <div className='skillItem'>
+                <h3><i className="fab fa-figma"></i> Figma</h3>
+                <span className='experienceLevel'>Intermediate</span>
+            </div>
+            <div className='skillItem'>
+                <h3><i className="fab fa-github-square"></i> Git/Github</h3>
+                <span className='experienceLevel'>Moderate</span>
+            </div>
         </AccordionDetails>
       </Accordion>
       </div>

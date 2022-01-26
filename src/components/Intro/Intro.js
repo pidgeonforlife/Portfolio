@@ -23,7 +23,7 @@ function Intro() {
       </div>
         <motion.div transition={{duration: 2, repeat: Infinity }}
         animate={{ y: [0, 30, 0] }} className='introArrow'>
-          <i class="fas fa-arrow-down"></i>
+          <i className="fas fa-arrow-down"></i>
         </motion.div>
     </div>
   );

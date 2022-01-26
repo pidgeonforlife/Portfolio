@@ -15,16 +15,16 @@ function Connect() {
         </motion.div>
         <div className='socialMedia'>
             <button>
-                <a href='https://github.com/pidgeonforlife' target="_blank"><i class="fab fa-github"></i></a>
+                <a href='https://github.com/pidgeonforlife' target="_blank"><i className="fab fa-github"></i></a>
             </button>
             <button>
-                <a href='mailto:eric.choiyongseok@gmail.com' target="_blank"><i class="fas fa-envelope"></i></a>
+                <a href='mailto:eric.choiyongseok@gmail.com' target="_blank"><i className="fas fa-envelope"></i></a>
             </button>
             <button>
-                <a href='https://www.linkedin.com/in/eric-choi-5524ba204/' target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href='https://www.linkedin.com/in/eric-choi-5524ba204/' target="_blank"><i className="fab fa-linkedin"></i></a>
             </button>
             <button>
-                <a href='https://www.instagram.com/seokk.e/?hl=en' target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href='https://www.instagram.com/seokk.e/?hl=en' target="_blank"><i className="fab fa-instagram"></i></a>
             </button>
         </div>
     </div>

@@ -7,14 +7,14 @@ function MapleStoryNavigate() {
         <div className='buttonContainer'>
             <div className='leftButton'>
                 <motion.button whileHover={{ scale: 1.1}} whileTap={{ scale: 0.8 }} className='navigateButton'>
-                    <i class="fas fa-arrow-left"></i>
+                    <i className="fas fa-arrow-left"></i>
                     <a href='/SYPTech'>PREVIOUS PROJECT</a>
                 </motion.button>
             </div>
             <div className='rightButton'>
                 <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }} className='navigateButton'>
                     <a href='/SpotMe'>NEXT PROJECT</a>
-                    <i class="fas fa-arrow-right"></i>
+                    <i className="fas fa-arrow-right"></i>
                 </motion.button>
             </div>
         </div>

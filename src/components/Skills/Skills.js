@@ -12,10 +12,8 @@ function Skills() {
             animate={{ x: 0, opacity: 1 }} className='aboutInfo'>
             <h1>Skills/Tools<span style={{color: '#94CBFF'}}>.</span></h1>
             <p>Here are some of the things I've learned<span style={{color: '#94CBFF'}}>.</span></p>
+            <Accordions />
         </motion.div>
-        <div className='skillsList'>
-          <Accordions />
-        </div>
     </div>
   );
 }
