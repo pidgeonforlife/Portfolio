@@ -30,7 +30,7 @@ function Navbar() {
             </a>
           </li>
           <li className='nav-item'>
-            <a href='/#contact' className='nav-links' onClick={closeMobileMenu}>
+            <a href='/#skills' className='nav-links' onClick={closeMobileMenu}>
               SKILLS
             </a>
           </li>
