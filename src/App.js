@@ -6,6 +6,7 @@ import SpotMe from './pages/SpotMe';
 import Handy from './pages/Handy';
 import SYPTech from './pages/SYPTech';
 import MaplestoryText from './pages/MapleStoryText';
+import Diversify from './pages/Diversify';
 import ScrollToTop from './components/ScrollToTop';
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
         <Route path='/Handy' element={<Handy />}/>
         <Route path='/SYPTech' element={<SYPTech />}/>
         <Route path='/MapleStory' element={<MaplestoryText />}/>
+        <Route path='/Diversify' element={<Diversify />}/>
       </Routes>
       </ScrollToTop>
     </BrowserRouter>

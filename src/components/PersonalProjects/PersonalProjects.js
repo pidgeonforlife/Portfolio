@@ -43,6 +43,13 @@ function PersonalProjects() {
                   }} whileTap={{ scale: 0.8 }} src='/images/Maplestory.png' />
             </Link>
             </div>
+            <div className='projectBox1'>
+            <Link to='/Diversify' className='projectBox1Img'>
+            <motion.img whileHover={{ 
+                  scale: 1.1
+                  }} whileTap={{ scale: 0.8 }} src='/images/Diversify.png' />
+            </Link>
+            </div>
         </div>
     </div>
   );
